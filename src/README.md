@@ -1,0 +1,1 @@
+./src/submit_training_aml.sh must be copied to /<YOUR PATH TO>/replay/atmosphere-subsampled/p0/training
