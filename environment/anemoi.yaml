@@ -17,10 +17,6 @@ dependencies:
   - cftime
   - flox
   - cartopy
-# jupyter etc
-  - jupyter
-  - ipython
-  - ipykernel
 # filesystem
   - fsspec
   - gcsfs
@@ -43,7 +39,6 @@ dependencies:
   - trimesh
   - scikit-learn
   - typeguard
-# anemoi-datasets
   - cfunits
   - pyyaml
   - semantic_version
@@ -55,7 +50,7 @@ dependencies:
   - eccodes
   - entrypoints
   - pyproj
-# anemoi-utils
+  # anemoi-utils
   - importlib-metadata
   - python-dateutil
   - tomli
@@ -64,16 +59,15 @@ dependencies:
   - wcwidth
   - pip
   - pip:
-    # anemoi-datasets
     - earthkit-meteo
-    # anemoi-utils
     - aniso8601
     - nvsmi
     - torch<2.7
     - torchvision
     - torchaudio
     - torch_geometric
-    - anemoi-training
-    - anemoi-models
-    - anemoi-graphs
-    - anemoi-inference
+    - anemoi-training==0.4.0
+    - anemoi-models==0.5.0 
+    - anemoi-graphs==0.5.2 
+    - anemoi-inference==0.5.4
+    - anemoi-datasets==0.5.23 
