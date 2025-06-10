@@ -1,11 +1,7 @@
-#!/usr/bin/env bash
-
-# This script copies the AzureML submission script to the default replay path.
-# It ensures the target directory exists before copying.
 
 set -euo pipefail
 
-TARGET_DIR="anemoi-house/replay/atmosphere-subsampled/p0/training"
+TARGET_DIR="./src/anemoi-house/replay/atmosphere-subsampled/p0/training"
 
 mkdir -p "$TARGET_DIR"
 
